@@ -1,0 +1,45 @@
+/* reset default margins/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: #dd1414;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* default color */
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  
+  #change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  
+  #change-color-btn:hover {
+    background-color: #27ae60;
+  }
+  
